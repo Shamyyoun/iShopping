@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/menu_drawer_width"
+    android:layout_height="match_parent"
+    android:background="@color/menu_drawer_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/view_register"
+        style="@style/MenuDrawerButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="@dimen/menu_drawer_button_icon_dimen"
+            android:layout_height="@dimen/menu_drawer_button_icon_dimen"
+            android:src="@drawable/register_icon" />
+
+        <TextView
+            style="@style/MenuDrawerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_c" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/view_home"
+        style="@style/MenuDrawerButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="@dimen/menu_drawer_button_icon_dimen"
+            android:layout_height="@dimen/menu_drawer_button_icon_dimen"
+            android:src="@drawable/home_icon" />
+
+        <TextView
+            style="@style/MenuDrawerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_c" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/view_products"
+        style="@style/MenuDrawerButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="@dimen/menu_drawer_button_icon_dimen"
+            android:layout_height="@dimen/menu_drawer_button_icon_dimen"
+            android:src="@drawable/products_icon" />
+
+        <TextView
+            style="@style/MenuDrawerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/products_c" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/view_wishList"
+        style="@style/MenuDrawerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="@dimen/menu_drawer_button_icon_dimen"
+            android:layout_height="@dimen/menu_drawer_button_icon_dimen"
+            android:src="@drawable/wish_list_icon" />
+
+        <TextView
+            style="@style/MenuDrawerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wish_list_c" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/view_contact"
+        style="@style/MenuDrawerButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="@dimen/menu_drawer_button_icon_dimen"
+            android:layout_height="@dimen/menu_drawer_button_icon_dimen"
+            android:src="@drawable/contact_icon" />
+
+        <TextView
+            style="@style/MenuDrawerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_c" />
+    </LinearLayout>
+
+</LinearLayout>

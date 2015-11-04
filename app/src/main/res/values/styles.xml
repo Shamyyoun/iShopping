@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- ActionBar Icon -->
+    <style name="ActionBarIcon">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:paddingLeft">@dimen/actionbar_icon_padding</item>
+        <item name="android:paddingRight">@dimen/actionbar_icon_padding</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <!-- ActionBar Title -->
+    <style name="ActionBarTitle">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/actionbar_title_size</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- MenuDrawer Button -->
+    <style name="MenuDrawerButton">
+        <item name="android:background">@drawable/menu_drawer_button</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">@dimen/menu_drawer_button_padding</item>
+        <item name="android:paddingTop">@dimen/menu_drawer_button_padding</item>
+    </style>
+
+    <!-- MenuDrawer Text -->
+    <style name="MenuDrawerText">
+        <item name="android:layout_marginTop">@dimen/menu_drawer_button_text_spacing</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/menu_drawer_button_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Form Button -->
+    <style name="FormButton">
+        <item name="android:background">@drawable/form_button</item>
+        <item name="android:textSize">@dimen/form_button_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

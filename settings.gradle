@@ -1,0 +1,1 @@
+include ':app', ':library-recyclerview', ':library', ':app_msg'

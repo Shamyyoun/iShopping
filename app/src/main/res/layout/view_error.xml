@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:src="@drawable/error_icon"
+            android:layout_width="@dimen/msg_view_image_dimen"
+            android:layout_height="@dimen/msg_view_image_dimen"
+            android:id="@+id/imageView" />
+
+        <TextView
+            android:layout_marginTop="@dimen/msg_view_text_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/error_loading_data"
+            android:textSize="@dimen/msg_view_large_text_size"
+            android:textColor="@color/brown_text_color"
+            android:id="@+id/text_error" />
+
+        <TextView
+            android:textColor="@color/light_gray_text_color"
+            android:textSize="@dimen/msg_view_medium_text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tap_to_refresh"
+            android:id="@+id/textView" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/button_refresh"
+        android:background="@drawable/msg_view_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

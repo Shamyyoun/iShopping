@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#695735</color>
+    <color name="primary_dark">#4D4128</color>
+    <color name="menu_drawer_bg">#0d0d0d</color>
+    <color name="menu_drawer_button_pressed">#0A0A0A</color>
+    <color name="brown_text_color">#695735</color>
+    <color name="light_gray_text_color">#5d5d5d</color>
+    <color name="dark_gray_text_color">#474747</color>
+    <color name="title_bg">#efeff4</color>
+    <color name="seperator_bg">#efeff4</color>
+    <color name="trans_black">#57000000</color>
+    <color name="error_text_color">#ffff2a2a</color>
+</resources>
