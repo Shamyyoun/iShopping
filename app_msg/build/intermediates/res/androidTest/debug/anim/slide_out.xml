@@ -2,4 +2,4 @@
 <translate xmlns:android="http://schemas.android.com/apk/res/android"
     android:duration="400"
     android:fromYDelta="0%"
-    android:toYDelta="-100%" /><!-- From: file:/E:/Shamyyoun/AndroidStudioProjects/iShopping/app_msg/res/anim/slide_out.xml --><!-- From: file:/E:/Shamyyoun/AndroidStudioProjects/iShopping/app_msg/build/intermediates/bundles/debug/res/anim/slide_out.xml -->
+    android:toYDelta="-100%" /><!-- From: file:/E:/Android/AndroidStudioProjects/iShopping/app_msg/res/anim/slide_out.xml --><!-- From: file:/E:/Android/AndroidStudioProjects/iShopping/app_msg/build/intermediates/bundles/debug/res/anim/slide_out.xml -->

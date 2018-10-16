@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="debug"><source path="E:\Shamyyoun\AndroidStudioProjects\iShopping\app_msg\build\intermediates\bundles\debug\assets"/></dataSet><dataSet config="main"><source path="E:\Shamyyoun\AndroidStudioProjects\iShopping\app_msg\src\androidTest\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="debug"><source path="E:\Android\AndroidStudioProjects\iShopping\app_msg\build\intermediates\bundles\debug\assets"/></dataSet><dataSet config="main"><source path="E:\Android\AndroidStudioProjects\iShopping\app_msg\src\androidTest\assets"/></dataSet></merger>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/E:/Shamyyoun/AndroidStudioProjects/iShopping/app_msg/build/intermediates/bundles/debug/res/values/values.xml -->
+    <!-- From: file:/E:/Android/AndroidStudioProjects/iShopping/app_msg/build/intermediates/bundles/debug/res/values/values.xml -->
     <eat-comment/>
     <color name="alert">#CC0000</color>
     <color name="confirm">#FF8800</color>
